@@ -3,6 +3,12 @@ var authController = require('../controllers/authcontroller.js');
 module.exports = function(app, passport) {
 
     app.get('/', authController.publicIndex);
+
+    app.get('/about', authController.publicAbout);
+
+    app.get('/portfolio', authController.publicPortfolio);
+
+    app.get('/contact', authController.publicContact);
  
  
  

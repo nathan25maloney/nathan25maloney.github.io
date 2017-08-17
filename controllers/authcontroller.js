@@ -4,7 +4,19 @@ var exports = module.exports = {}
 
 
 exports.publicIndex = function(req, res) {
-    res.render('index');
+    res.render('index.handlebars');
+
+}
+exports.publicAbout = function(req, res) {
+    res.render('about.handlebars');
+
+}
+exports.publicPortfolio = function(req, res) {
+    res.render('portfolio.handlebars');
+
+}
+exports.publicContact = function(req, res) {
+    res.render('contact.handlebars');
 
 }
 

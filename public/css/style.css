@@ -111,6 +111,13 @@ a.navbar-brand.text-uppercase.text-expanded.font-weight-bold.d-lg-none {
     border-color: #878484;
 }
 
+a.nav-link.text-uppercase.text-expanded {
+    color: white;
+    font-size: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
 .navbar-light .navbar-toggler-icon {
     background-color: #878484;
 }
@@ -132,9 +139,8 @@ a.nav-link.text-uppercase.text-expanded {
     font-family: 'Source Sans Pro';
     font-size: 1.3em;
     position: absolute;
-    z-index: 10;
+    opacity: 0.65;
     width: 30%;
-    height: 50%;
     background: #eee;
     top: 35%;
     left: 15%;
