@@ -43,6 +43,15 @@ canvas{
   vertical-align:bottom;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+h3.portfolio {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 1px;
+}
 
 /* ---- stats.js ---- */
 
@@ -80,9 +89,8 @@ canvas{
 
 .count-particles{
   border-radius: 0 0 3px 3px;
+
 }
-
-
 /* ---- particles.js container ---- */
 
 #particles-js{
@@ -239,7 +247,7 @@ h5,
 h6 {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  margin: 0 0 35px;
+  margin: 0px 0 12px;
   letter-spacing: 1px;
   text-transform: uppercase; }
 
