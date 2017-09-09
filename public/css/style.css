@@ -95,14 +95,33 @@ canvas{
   background-repeat: no-repeat;
 }
 
-@media (min-width: 768px){
+p.intro-text {
+    margin: 0px 0 -153px 0;
+    position: relative;
+    top: 150px;
+}
+
+@media (min-width: 768px)
+style.css:236
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 26px;
+}
+style.css:231
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 25px;
+}
+@media (min-width: 768px)
+style.css:103
 p {
     font-size: 18px;
     line-height: 1.6;
     margin: 0px 0px 35px 0px;
     position: relative;
-    top: 150px;
-}
+    top: -3px;
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-faded.py-lg-4 {
@@ -333,7 +352,7 @@ a {
     border-radius: 100% !important;
     background: transparent;
     position: relative;
-    top: 300px;
+    top: 440px;
 }
   .btn-circle:focus, .btn-circle:hover {
     color: white;
@@ -357,10 +376,11 @@ a {
   width: 100%;
   height: 300px; }
 
-@media (min-width: 992px) {
-  .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px; }
+@media (min-width: 992px){
+.content-section {
+    padding-top: 109px;
+    padding-bottom: 200px;
+    height: 631px; }
   #map {
     height: 350px; } }
 
